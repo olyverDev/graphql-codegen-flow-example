@@ -1,0 +1,10 @@
+schema: ./schema.graphql
+documents:
+  - ./query.js
+generates:
+  ./graphql.types.js:
+    plugins:
+      - flow
+      - flow-operations
+    config:
+      preResolveTypes: true

@@ -1,0 +1,18 @@
+{
+  "name": "graphql-codegen-flow-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@graphql-codegen/add": "^2.0.2",
+    "@graphql-codegen/cli": "^1.21.3",
+    "@graphql-codegen/flow": "^1.18.5",
+    "@graphql-codegen/flow-operations": "^1.18.7",
+    "graphql": "^15.5.0",
+    "graphql-tag": "^2.11.0",
+    "graphql-tools": "^7.0.4"
+  },
+  "scripts": {
+    "graphql-codegen": "DEBUG=1 VERBOSE=1 graphql-codegen"
+  }
+}

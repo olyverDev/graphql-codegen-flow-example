@@ -1,0 +1,17 @@
+type Query {
+  getEntity: Entity # the key moment return type is nullable
+}
+
+interface Entity {
+  field: String!
+}
+
+type SubEntityA implements Entity {
+  field: String!
+  subEntityFieldA: String!
+}
+
+type SubEntityB implements Entity {
+  field: String!
+  subEntityFieldB: String!
+}
