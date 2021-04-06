@@ -13,6 +13,6 @@
     "graphql-tools": "^7.0.4"
   },
   "scripts": {
-    "graphql-codegen": "DEBUG=1 VERBOSE=1 graphql-codegen"
+    "graphql-codegen": "graphql-codegen"
   }
 }
